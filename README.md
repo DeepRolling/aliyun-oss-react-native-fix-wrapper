@@ -1,6 +1,6 @@
 # aliyun-oss-react-native-fix-wrapper
 
-offer addition functionality to operate images in aliyun cloud base on aliyun-oss-react-native-fix
+Offer addition functionality to operate images in aliyun cloud base on [aliyun-oss-react-native-fix](https://github.com/bigshans/aliyun-oss-react-native)
 
 ## Installation
 
@@ -10,12 +10,31 @@ npm install aliyun-oss-react-native-fix-wrapper
 
 ## Usage
 
-```js
-import AliyunOssReactNativeFixWrapper from "aliyun-oss-react-native-fix-wrapper";
+```typescript
+import {uploadImagesToAliCloud} from "aliyun-oss-react-native-fix-wrapper";
 
 // ...
 
-const result = await AliyunOssReactNativeFixWrapper.multiply(3, 7);
+const uploadedImageNames = await uploadImagesToAliCloud(
+  [
+    {
+      name: '1.png',
+      path: 'yourPath',
+    },
+    {
+      name: '2.png',
+      path: 'yourPath',
+    },
+  ],
+  {
+    AccessKeyId: 'YourAccessKeyId',
+    AccessKeySecret: 'YourAccessKeySecret',
+    SecurityToken: 'YourSecurityToken',
+    bucketName: 'YourBucketName',
+    endpoint: 'YourEndpoint',
+    folder: 'YourFolder',
+  }
+);
 ```
 
 ## Contributing
