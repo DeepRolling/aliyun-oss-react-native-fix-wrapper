@@ -1,6 +1,6 @@
 # aliyun-oss-react-native-fix-wrapper
 
-Offer addition functionality to operate images in aliyun cloud base on [aliyun-oss-react-native-fix](https://github.com/bigshans/aliyun-oss-react-native)
+Offer addition functionality to operate images in aliyun cloud base on [aliyun-oss-react-native-fix-further](https://github.com/DeepRolling/aliyun-oss-react-native.git)
 
 ## Installation
 
