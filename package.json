@@ -1,6 +1,6 @@
 {
   "name": "aliyun-oss-react-native-fix-wrapper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "offer addition functionality to operate images in aliyun cloud base on aliyun-oss-react-native-fix",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -66,12 +66,12 @@
     "react-native-builder-bob": "^0.18.0",
     "release-it": "^14.2.2",
     "typescript": "^4.1.3",
-    "aliyun-oss-react-native-fix": "1.0.2"
+    "aliyun-oss-react-native-fix-futher": "1.0.1"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "aliyun-oss-react-native-fix": "1.0.2"
+    "aliyun-oss-react-native-fix-futher": "1.0.1"
   },
   "jest": {
     "preset": "react-native",

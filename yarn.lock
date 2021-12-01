@@ -2181,10 +2181,10 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-aliyun-oss-react-native-fix@1.0.2:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/aliyun-oss-react-native-fix/-/aliyun-oss-react-native-fix-1.0.0.tgz#79bb9b56c3474d20cc4d152bfe7588e54fa78c7e"
-  integrity sha512-7u2ras2HKqM6hTUxDzMousZ5ZnOOlQKgoXSR4BQQ6MN44C6HDtqMKEsStqcxgVh7tk+PXJdXprrfX/X7/PmlHA==
+aliyun-oss-react-native-fix-futher@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/aliyun-oss-react-native-fix-futher/-/aliyun-oss-react-native-fix-futher-1.0.1.tgz#48ee9255f7af8061665dbc6008495202f5f89fd7"
+  integrity sha512-3EzgXh10J6m6q+WS340OBSKnds+nktrYqjlbLy7PFENipuXp7nLGd4QIPvYEQNHPgGC0qwmt3hNjOyMzOyMx1Q==
 
 anser@^1.4.9:
   version "1.4.10"

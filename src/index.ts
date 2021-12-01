@@ -1,5 +1,5 @@
 // @ts-ignore
-import AliyunOSS from 'aliyun-oss-react-native-fix';
+import AliyunOSS from 'aliyun-oss-react-native-fix-futher';
 
 export type ImageInfo = {
   /**
